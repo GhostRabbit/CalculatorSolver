@@ -170,7 +170,7 @@ function ShiftIn(v) {
   this.name = ' ' + v
   
   this.apply = (x) => {
-    return x * 10 + this.value
+    return parseInt(x + '' + v)
   }
 }
 
